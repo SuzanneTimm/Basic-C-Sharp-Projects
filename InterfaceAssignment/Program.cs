@@ -13,6 +13,9 @@ namespace InterfaceAssignment
 
             employee.SayName();
             employee.Quit();
+
+            IQuittable quitter = new Employee();           
+            quitter.Quit();
         }
     }
 }
