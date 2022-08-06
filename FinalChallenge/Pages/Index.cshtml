@@ -1,0 +1,12 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p> The current time is @Model.CurrentDisplayDateAndTimeStr</p>
+    <form method="post"><button class="btn btn-default">Click to see the full date and time</button></form>
+
+</div>
